@@ -22,10 +22,10 @@
  SyncIntervalSec=1s
  RateLimitInterval=1s
  RateLimitBurst=10000
- SystemMaxUse=5G
- SystemMaxFileSize=10M
+ SystemMaxUse={{ SystemMaxUse }}
+ SystemMaxFileSize={{ SystemMaxFileSize }}
 #RuntimeKeepFree=
- RuntimeMaxFileSize=3G
+ RuntimeMaxFileSize={{ RuntimeMaxFileSize }}
  MaxRetentionSec=1month
  ForwardToSyslog=False
 #ForwardToKMsg=no
