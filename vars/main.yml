@@ -1,2 +1,7 @@
 ---
 # vars file for ansible-journal
+
+RuntimeMaxFileSize: 100G
+SystemMaxUse: 10G
+MaxRetentionSec: 100month
+SystemMaxFileSize: 10M
