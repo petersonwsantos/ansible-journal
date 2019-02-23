@@ -1,0 +1,13 @@
+---
+- name: Copy custom files /etc/systemd/journald.conf
+  copy:
+    src: "journald.conf"
+    dest: "/etc/systemd/journald.conf"
+  notify: restart journald
+  when: type != "nfs"
+- name: Copy custom files NFS /etc/systemd/journald.conf
+  copy:
+    src: "journald-nfs.conf"
+    dest: "/etc/systemd/journald.conf"
+  notify: restart journald
+  when: type == "nfs"  
