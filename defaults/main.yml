@@ -1,7 +1,7 @@
 ---
 # defaults file for ansible-journal
 
-RuntimeMaxFileSize: 1G
-SystemMaxUse: 1G
-MaxRetentionSec: 1month
-SystemMaxFileSize: 1M
+# RuntimeMaxFileSize: 1G
+# SystemMaxUse: 1G
+# MaxRetentionSec: 1month
+# SystemMaxFileSize: 1M
