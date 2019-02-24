@@ -8,4 +8,4 @@ systemmaxilesize: 10M
 # RuntimeMaxFileSize
 runtimemaxfilesize: 1G
 # maxretentionSec
-MaxRetentionSec: 10month
+maxretentionsec: 10month
