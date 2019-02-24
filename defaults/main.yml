@@ -2,7 +2,7 @@
 # defaults file for ansible-journal
 
 # SystemMaxUse
-systemmaxuuse: 1G
+systemmaxuse: 1G
 # SystemMaxFileSize
 systemmaxilesize: 10M
 # RuntimeMaxFileSize
