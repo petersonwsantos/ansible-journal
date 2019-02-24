@@ -8,7 +8,5 @@ systemmaxuse: 11G
 systemmaxilesize: 11M
 # RuntimeMaxFileSize
 runtimemaxfilesize: 11G
-
-ansible-journal:
-  # maxretentionSec
-  maxretentionsec: 11month
+# maxretentionSec
+maxretentionsec: 11month
